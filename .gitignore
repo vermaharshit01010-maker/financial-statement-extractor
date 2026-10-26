@@ -1,0 +1,38 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.py[cod]
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Machine-specific files
+.DS_Store
+Thumbs.db
+
+# Local app data, uploaded documents, and generated deliverables
+/data/
+*.pdf
+*.xlsx
+*.xls
+*.csv
+*.sqlite
+*.sqlite3
+*.db
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
